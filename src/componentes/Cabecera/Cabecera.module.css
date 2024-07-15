@@ -1,0 +1,20 @@
+.cabecera {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 42.5px;
+    gap: 10px;
+    border-bottom: 4px solid var(--corFonte_secundaria);
+    box-shadow: 0px 7px 29px 0px var(--boxShadow);
+}
+
+.logo {
+    margin-top: 10px;
+    display: inline-flex;
+}
+
+.menu {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}

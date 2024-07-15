@@ -1,0 +1,37 @@
+.logo {
+    margin-top: 10px;
+    display: flex; 
+    justify-content: center;
+ }
+
+.pieDePagina {
+    background-color: var(--fundoRodape);
+    padding-top: 42.5px;
+    padding-bottom: 42.5px;
+    border-top: 4px solid var(--corFonte_secundaria);
+    box-shadow: 0px -5px 29px 0px var(--boxShadow);
+}
+
+.texto {
+    color: var(--corFonte_primaria);
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.redes_sociales {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.icono {
+    color: var(--corFonte_primaria);
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.icono:hover {
+    transform: scale(1.3);
+    color: var(--corFonte_secundaria);
+}

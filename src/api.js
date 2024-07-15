@@ -1,0 +1,1 @@
+export const api = 'https://my-json-server.typicode.com/angdan62/aluraflix-api/videos';
