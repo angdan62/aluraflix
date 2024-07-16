@@ -72,7 +72,8 @@ function Inicio(){
                     aoEditar={editarVideo}
                     aoVerVideo={verVideo}
                     aoTopo={irAoTopo}
-                />)}
+                />)
+                }
             </section>
             <ModalEditar
                 video={videoSelecionado}

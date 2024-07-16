@@ -62,22 +62,22 @@ function ModalEditar({ video, aoFechar, aoSalvar, aoFecharModal, categorias }) {
                     className={styles.campoModal}
                     obrigatorio={true}
                     label="Título"
-                    placeholder="Insira o título"
+                    placeholder="Título"
                     valor={titulo}
                     aoAlterado={(valor) => setTitulo(valor)}
                   />
                   <ListaCategoria
                     obrigatorio={true}
                     label="Categoría"
-                    placeholder="Selecione uma categoía..."
+                    placeholder="Selecione una categoría..."
                     itens={categorias}
                     valor={categoria}
                     aoAlterado={(valor) => setCategoria(valor)}
                   />
                   <CampoFormulario
                     obrigatorio={true}
-                    label="Imagem"
-                    placeholder="URL da imagem"
+                    label="Imagen"
+                    placeholder="URL de imagen"
                     valor={imagem}
                     aoAlterado={(valor) => setImagem(valor)}
                   />
@@ -85,21 +85,21 @@ function ModalEditar({ video, aoFechar, aoSalvar, aoFecharModal, categorias }) {
                   <CampoFormulario
                     obrigatorio={true}
                     label="Vídeo"
-                    placeholder="URL do vídeo"
+                    placeholder="URL del vídeo"
                     valor={link}
                     aoAlterado={(valor) => setLink(valor)}
                   />
                   <Textarea
                     obrigatorio={true}
-                    label="Descrição"
-                    placeholder="Sobre o que é esse vídeo?"
+                    label="Descripción"
+                    placeholder="Sobre que es el vídeo?"
                     valor={descricao}
                     aoAlterado={(valor) => setDescricao(valor)}
                   />
                 </div>
                 <div className={styles.botoes}>
                   <BotonFormulario children="Guardar" type="submit" />
-                  <BotonFormulario children="Limpar" type="reset" />
+                  <BotonFormulario children="Limpiar" type="reset" />
                 </div>
               </div>
             </form>

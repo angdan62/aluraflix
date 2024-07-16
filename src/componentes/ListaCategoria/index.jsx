@@ -9,7 +9,7 @@ import styles from './ListaCategoria.module.css'
                 onChange={evento => aoAlterado(evento.target.value)} 
                 required={obrigatorio} 
                 value={valor} >
-                    <option className={styles.opcoes} value="">Selecione uma categoría...</option> 
+                    <option className={styles.opcoes} value="">Selecione una categoría...</option> 
                 {itens.map(iten => {
                     return <option className={styles.opcoes} key={iten}>{iten}</option>
                 })}

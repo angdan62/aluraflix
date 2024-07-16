@@ -28,7 +28,7 @@ function Video({ video, categoria, aoDeletar, aoEditar, aoVerVideo, aoTopo }) {
       <div className={styles.opcoes}>
         <div className={styles.item_opcao} onClick={() => aoDeletar(video.id)}>
           <MdDeleteForever />
-          <p>Deletar</p>
+          <p>Eliminar</p>
         </div>
         <div
           className={styles.item_opcao}
